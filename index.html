@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operation: Reunite With Harshini ❤️</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Floating Hearts -->
+    <div id="hearts-container"></div>
+
+    <!-- Landing Screen -->
+    <section id="landing-screen" class="screen active">
+
+        <div class="hero-card">
+
+            <div class="badge">
+                ❤️ PRIORITY MISSION ❤️
+            </div>
+
+            <h1>
+                Operation: Reunite With Harshini
+            </h1>
+
+            <div class="terminal">
+                <p>Scanning relationship status...</p>
+                <p>Girlfriend detected.</p>
+                <p>Return ETA: Tomorrow.</p>
+                <p>Boyfriend excitement: 999%</p>
+            </div>
+
+            <div class="stats-grid">
+
+                <div class="stat-card">
+                    <span class="stat-number">14+</span>
+                    <span class="stat-label">Days Since Last Harshini Sighting</span>
+                </div>
+
+                <div class="stat-card">
+                    <span class="stat-number">∞</span>
+                    <span class="stat-label">Hugs Owed</span>
+                </div>
+
+                <div class="stat-card">
+                    <span class="stat-number">3%</span>
+                    <span class="stat-label">Sanity Remaining</span>
+                </div>
+
+                <div class="stat-card">
+                    <span class="stat-number">100%</span>
+                    <span class="stat-label">Date Approval Probability</span>
+                </div>
+
+            </div>
+
+            <div class="quote-box">
+                "After extensive scientific research, it has been determined that immediate girlfriend presence is required."
+            </div>
+
+            <button id="startMissionBtn" class="primary-btn">
+                Begin Mission ❤️
+            </button>
+
+        </div>
+
+    </section>
+
+    <!-- Questionnaire -->
+    <section id="questionnaire-screen" class="screen">
+
+        <div class="main-card">
+
+            <h1>The Harshini Reunion Planner ❤️</h1>
+
+            <div class="progress-wrapper">
+                <div id="progressBar"></div>
+            </div>
+
+            <!-- STEP 1 -->
+            <div class="step active-step" data-step="1">
+
+                <h2>10 AM – 12 PM</h2>
+
+                <p class="section-text">
+                    How shall we spend the first part of our glorious reunion?
+                </p>
+
+                <div class="option-grid">
+
+                    <label class="option-card">
+                        <input type="radio" name="activity" value="Bowling">
+                        🎳 Bowling
+                    </label>
+
+                    <label class="option-card">
+                        <input type="radio" name="activity" value="Bike Ride">
+                        🏍️ Bike Ride
+                    </label>
+
+                    <label class="option-card">
+                        <input type="radio" name="activity" value="Mall">
+                        🛍️ Window Shopping
+                    </label>
+
+                    <label class="option-card">
+                        <input type="radio" name="activity" value="Arcade">
+                        🎮 Arcade
+                    </label>
+
+                </div>
+
+                <input
+                    type="text"
+                    id="activityOther"
+                    placeholder="Any better idea, Ms. Harshini?"
+                >
+
+            </div>
+
+            <!-- STEP 2 -->
+            <div class="step" data-step="2">
+
+                <h2>12 PM – 2 PM</h2>
+
+                <p class="section-text">
+                    Emergency lunch planning.
+                </p>
+
+                <div class="option-grid">
+
+                    <label class="option-card">
+                        <input type="radio" name="restaurant" value="RR Durbar">
+                        🍗 RR Durbar
+                    </label>
+
+                    <label class="option-card">
+                        <input type="radio" name="restaurant" value="UTK">
+                        🍽️ UTK
+                    </label>
+
+                    <label class="option-card">
+                        <input type="radio" name="restaurant" value="ABS">
+                        🥘 ABS
+                    </label>
+
+                    <label class="option-card">
+                        <input type="radio" name="restaurant" value="Platform 65">
+                        🚂 Platform 65
+                    </label>
+
+                </div>
+
+                <input
+                    type="text"
+                    id="restaurantOther"
+                    placeholder="Any other restaurant?"
+                >
+
+            </div>
+
+            <!-- STEP 3 -->
+            <div class="step" data-step="3">
+
+                <h2>2 PM – 5 PM</h2>
+
+                <p class="section-text">
+                    What should happen after lunch?
+                </p>
+
+                <div class="option-grid">
+
+                    <label class="option-card">
+                        <input type="radio" name="afternoon" value="Obsession Movie">
+                        🎬 Obsession Movie
+                    </label>
+
+                    <label class="option-card">
+                        <input type="radio" name="afternoon" value="Long Ride">
+                        🏍️ Long Ride
+                    </label>
+
+                    <label class="option-card">
+                        <input type="radio" name="afternoon" value="Cafe">
+                        ☕ Café Hopping
+                    </label>
+
+                    <label class="option-card">
+                        <input type="radio" name="afternoon" value="Anything">
+                        ✨ Surprise Me
+                    </label>
+
+                </div>
+
+                <input
+                    type="text"
+                    id="afternoonOther"
+                    placeholder="Any other activity?"
+                >
+
+            </div>
+
+            <!-- STEP 4 -->
+            <div class="step" data-step="4">
+
+                <h2>Relationship Audit ❤️</h2>
+
+                <p class="section-text">
+                    What did you miss most?
+                </p>
+
+                <select id="missedMost">
+                    <option>Bike Rides</option>
+                    <option>Food Dates</option>
+                    <option>Talking Nonsense Together</option>
+                    <option>His Face</option>
+                    <option>Everything</option>
+                </select>
+
+                <h2>Risk Assessment</h2>
+
+                <select id="riskLevel">
+                    <option>Safe and Civilised</option>
+                    <option>Mild Chaos</option>
+                    <option>Core Memory Creation</option>
+                    <option>Financially Irresponsible</option>
+                </select>
+
+                <h2>Affection Forecast</h2>
+
+                <select id="affectionLevel">
+                    <option>Normal</option>
+                    <option>Above Average</option>
+                    <option>Potentially Concerning</option>
+                    <option>Authorities Should Be Notified</option>
+                </select>
+
+            </div>
+
+            <!-- STEP 5 -->
+            <div class="step" data-step="5">
+
+                <h2>Final Message ❤️</h2>
+
+                <textarea
+                    id="message"
+                    rows="8"
+                    placeholder="Anything you'd like to tell your boyfriend?"
+                ></textarea>
+
+            </div>
+
+            <div class="nav-buttons">
+
+                <button id="prevBtn" class="secondary-btn">
+                    Back
+                </button>
+
+                <button id="nextBtn" class="primary-btn">
+                    Next ❤️
+                </button>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Loading Screen -->
+    <section id="loading-screen" class="screen">
+
+        <div class="loading-card">
+
+            <h1>Analyzing Relationship Data...</h1>
+
+            <div class="loader-line">
+                Checking Compatibility...
+            </div>
+
+            <div class="loader-line">
+                Calculating Hugs...
+            </div>
+
+            <div class="loader-line">
+                Evaluating Date Potential...
+            </div>
+
+            <div class="loader-line">
+                Measuring Boyfriend Excitement...
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Final Screen -->
+    <section id="result-screen" class="screen">
+
+        <div class="result-card">
+
+            <div class="approved">
+                APPROVED ❤️
+            </div>
+
+            <h1>
+                Congratulations Harshini
+            </h1>
+
+            <p>
+                Your reunion request has been reviewed.
+            </p>
+
+            <p>
+                After careful consideration...
+            </p>
+
+            <h2>
+                Date Approved ✅
+            </h2>
+
+            <div class="final-note">
+                P.S. I would've said yes to literally any option anyway.
+            </div>
+
+        </div>
+
+    </section>
+
+    <script type="module" src="script.js"></script>
+
+</body>
+</html>

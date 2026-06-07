@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Harshini Date Dashboard</title>
+
+<link rel="stylesheet" href="style.css">
+
+<style>
+
+body{
+    min-height:100vh;
+}
+
+.admin-container{
+    max-width:1400px;
+    margin:auto;
+    padding:40px;
+}
+
+.admin-title{
+    text-align:center;
+    margin-bottom:30px;
+}
+
+.response-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fill,minmax(400px,1fr));
+    gap:25px;
+}
+
+.response-card{
+    background:rgba(255,255,255,.08);
+    backdrop-filter:blur(20px);
+    border-radius:25px;
+    padding:25px;
+    border:1px solid rgba(255,255,255,.1);
+}
+
+.response-card h2{
+    color:#ff77aa;
+    margin-bottom:20px;
+}
+
+.response-item{
+    margin-bottom:12px;
+}
+
+.label{
+    color:#ff77aa;
+    font-weight:bold;
+}
+
+.message-box{
+    margin-top:15px;
+    background:rgba(255,255,255,.05);
+    padding:15px;
+    border-radius:15px;
+    line-height:1.6;
+}
+
+</style>
+
+</head>
+<body>
+
+<div id="hearts-container"></div>
+
+<div class="admin-container">
+
+    <h1 class="admin-title">
+        ❤️ Harshini Response Dashboard ❤️
+    </h1>
+
+    <div id="responses" class="response-grid">
+
+    </div>
+
+</div>
+
+<script type="module" src="admin.js"></script>
+
+</body>
+</html>
