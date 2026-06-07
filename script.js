@@ -96,7 +96,10 @@ async function submitResponses() {
     try {
 
         const payload = {
-
+dateRequest:
+document.querySelector(
+'input[name="dateRequest"]:checked'
+)?.value || "",
             timestamp: new Date().toISOString(),
 
             activity:
